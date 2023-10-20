@@ -1,0 +1,90 @@
+/* Styles pour centrer le contenu */
+body {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #333, #f0f0f0);
+  color: #333;
+  border: 2px solid #000;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #3498db; /* Couleur de la bordure bleue */
+}
+
+.section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-header.hobbies {
+  color: #3498db;
+}
+
+.section-header.passions {
+  color: #e74c3c;
+}
+
+.section-header.projects {
+  color: #2ecc71;
+}
+
+.section-header.follow-me {
+  color: #9b59b6;
+}
+
+.red-rectangle {
+  display: inline-block;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 10px;
+}
+
+/* Styles pour le bouton "Click here" */
+.click-button {
+  padding: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+#facebook {
+  font-size: 40px;
+  color : black; 
+  display: inline-block;
+}
+
+#Linkedin {
+  font-size: 40px;
+  color : black; 
+  display: inline-block;
+}
+
+ul{
+  list-style: none ;
+  padding: 0 ;
+  margin: 0 ;
+}
